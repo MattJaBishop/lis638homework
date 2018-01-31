@@ -5,13 +5,16 @@ echo "Hello again, world!";
 
 # Conditionals
 
-$tempf = 32;
+$tempf = 40;
 $sky = "A little cloudy";
 
-if ($tempf > 32) {
+if (($tempf >= 32) && ($tempf <= 80)) {
 	echo "It's not freezing outside!";
-} else {
-	echo "<p>Uh oh, it's freezing!<p>";
+} elseif ($tenpf > 80) {
+	echo "<p>Uh oh, it's hot out!<p>";
+}
+	else {
+		echo "<p>Uh oh, it's freezing!<p>";
 }
 
 ?>
