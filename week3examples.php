@@ -8,7 +8,7 @@ echo "Hello again, world!";
 $tempf = 32;
 $sky = "A little cloudy";
 
-if (tempf > 32) {
+if ($tempf > 32) {
 	echo "It's not freezing outside!";
 } else {
 	echo "<p>Uh oh, it's freezing!<p>";
