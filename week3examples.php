@@ -10,6 +10,8 @@ $sky = "A little cloudy";
 
 if (tempf > 32) {
 	echo "It's not freezing outside!";
+} else {
+	echo "<p>Uh oh, it's freezing!<p>";
 }
 
 ?>
