@@ -50,7 +50,7 @@ $bottles = 99;
 
 while ($bottles >= 0) {
   if ($bottles - 1 == 0) {
-      echo $bottles.' bottles of beer on the wall, '.$bottles.' bottles of beer,<br>';
+      echo $bottles.' bottle of beer on the wall, '.$bottles.' bottle of beer,<br>';
       echo 'Take one down and pass it around, no more bottles of beer on the wall.<br><br>';
 }
   
