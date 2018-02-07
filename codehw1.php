@@ -20,7 +20,7 @@ $payment = 200;
 
 $change = $payment - $price;
 
-#Establish functions for all change types using using int until cents
+#Establish functions for all change types using using int
 #Make sure to nest functions for each one that follows
 
 $dollars = (int) ($change / 1);
@@ -42,7 +42,7 @@ echo "Your change is: $dollars dollar(s), $quarters quarter(s), $dimes dime(s), 
 
 echo "<strong>Challenge 2: 99 Bottles of Beer</strong><br><br>";
 
-#Establish botlle count variable
+#Establish bottle count variable
 
 $bottles = 99;
 
