@@ -7,7 +7,7 @@
 
 #Challenge 1
 
-echo "<strong>Code Homework #1</strong><br><br><br>";
+echo "<strong>Code Homework #1 - Matt Bishop</strong><br><br><br>";
 
 echo "<strong>Challenge 1: Correct Change</strong><br><br>";
 
